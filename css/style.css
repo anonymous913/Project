@@ -42,8 +42,6 @@ hr {
     width: 30%;
 }
 
-#timer {
-    font-family: 'Roboto', sans-serif;
-    margin-top: 18px;
-    font-size: 20px;
+a {
+    color: aqua;
 }

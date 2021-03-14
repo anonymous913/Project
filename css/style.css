@@ -6,7 +6,7 @@ body {
 }
 
 header::before {
-    background: url('Love_\ \(149\).JPG') center center no-repeat fixed;
+    /* background: url('') center center no-repeat fixed; */
     background-size: cover;
     position: absolute;
     content: "";

@@ -1,10 +1,12 @@
-body{    
+body {
+    font-family: 'Lemonada', cursive;
     background-color: black;
     box-sizing: border-box;
-    color: white;    
+    color: white;
 }
-header::before{
-    background: url('img/Love_\ \(149\).JPG') center center no-repeat fixed;
+
+header::before {
+    background: url('/img/Love_\ \(149\).JPG') center center no-repeat fixed;
     background-size: cover;
     position: absolute;
     content: "";
@@ -15,30 +17,33 @@ header::before{
     left: 0;
     opacity: 0.7;
 }
-.content{
+
+.content {
     width: 70%;
     display: block;
     margin: 230px auto;
     text-align: center;
-
 }
-.content h1{
-   
+
+.content h1 {
     font-size: 50px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lemonada', cursive;
     margin-bottom: 18px;
     color: rgb(31, 245, 31);
 }
-.content #text{
+
+.content #text {
     margin-top: 0;
     font-size: 20px;
     color: yellow;
 }
-hr{
+
+hr {
     width: 30%;
-}          
-#timer{
-    font-family: 'Roboto', sans-serif;  
-     margin-top: 18px;
+}
+
+#timer {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 18px;
     font-size: 20px;
 }

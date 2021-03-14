@@ -1,44 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Md. Mahfuzur Rahman</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <title> Md. Mahfuzur Rahman</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Fonts - Lemonada -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
+
     <header>
         <div class="content">
-    <h1>This Site Is Transferred To A New Domain.</h1>
-    <p id="text">Stay Tuned for Something Amazing. Click  <a href="https://mahfuzweb.netlify.app/" target="_blank"> mahfuzweb </a>here to go our new web address. </p>
-     <hr>
-    <p id="timer"> </p>
+            <h1>This Site Is Transferred To A New Domain.</h1>
+            <p id="text">Stay Tuned for Something Amazing. Click <a href="https://mahfuzweb.netlify.app/"
+                    target="_blank"> mahfuzweb </a>here to go our new web address. </p>
+            <hr>
+            <p id="timer"> </p>
         </div>
-</header>
+    </header>
 
 </body>
 <script>
-   var countDownDate = new Date("Jan 31, 2021 00:00:00").getTime();
-   var x = setInterval(function(){
+    var countDownDate = new Date("Jan 31, 2021 00:00:00").getTime();
+    var x = setInterval(function () {
 
-     var now = new Date().getTime();
-     var distance = countDownDate - now;
+        var now = new Date().getTime();
+        var distance = countDownDate - now;
 
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  document.getElementById("timer").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-  
-   if (distance < 0){
-    clearInterval(x);
-    document.getElementById("timer").innerHTML = "EXPIRED";
-   }
-}, 1000);
+        document.getElementById("timer").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("timer").innerHTML = "EXPIRED";
+        }
+    }, 1000);
 
 
-   </script>
+</script>
+
 </html>

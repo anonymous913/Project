@@ -1,106 +1,44 @@
-body{
-    font-family: 'Open Sans', sans-serif;
+body{    
+    background-color: black;
+    box-sizing: border-box;
+    color: white;    
 }
-
-.banner-container{
-    background-color: #cacaca;
+header::before{
+    background: url('img/Love_\ \(149\).JPG') center center no-repeat fixed;
+    background-size: cover;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    opacity: 0.7;
 }
-
-.banner-column{
-    background-color: #8d8d8d
-}
-
-.navbar-container{
-   top: 0;
-   background-color: #262B37 ; 
-   position: sticky;
-   z-index: 2;
-}
-
-.about-container{
-    background-color: #00BDBD;
-}
-
-.education-container{
-    background-color: #474D5D;
-}
-
-.bg-redtype{
-    background-color: #fb857f;
-}
-
-.bg-redtype:hover{
-    color: black !important;
-}
-
-.redtype-color{
-    color: #fb857f;
-}
-
-.circle-education{
-    background-color: #fb857f ;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-}
-
-.project-container{
-    background-color: #2bb3dd;
-    color: white;
-}
-
-.skill-container{
-    background-color: #616161;
-}
-
-.port-container{
-    background-color: #474D5D !important;
-}
-
-
-.gal-container{
-    background-color: #00BDBD;
-    color: white !important;
-}
-
-.form-container{
-    background-color: #474d5d;
-}
-
-.inner-form{
-    background-color: #585f73;
-}
-
-.footer{
-    background-color: #2bb3dd;
-}
-
-
-.collections{
-    background-color: #00BDBD;
-}
-
-
-.circle{
-    width: 60px;
-    height: 60px;
-    border: radius 50%; 
-    display: inline-block;
-    background-color:white ;
-    font-size: 40px;
+.content{
+    width: 70%;
+    display: block;
+    margin: 230px auto;
     text-align: center;
-    color: #2bb3dd;
-}
 
-.circle:hover{
+}
+.content h1{
    
-    background-color: #474d5d ;
-    
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 18px;
+    color: rgb(31, 245, 31);
 }
-
-.w3-section{
-    color: white;
-    
+.content #text{
+    margin-top: 0;
+    font-size: 20px;
+    color: yellow;
 }
-
-
+hr{
+    width: 30%;
+}          
+#timer{
+    font-family: 'Roboto', sans-serif;  
+     margin-top: 18px;
+    font-size: 20px;
+}
